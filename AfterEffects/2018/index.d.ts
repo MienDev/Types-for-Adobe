@@ -736,7 +736,7 @@ declare class Application {
 	readonly preferences: Preferences;
 
 	/** CC2017- */
-	availableGPUAccelTypes: GpuAccelType;
+	availableGPUAccelTypes: GpuAccelType[];
 
 	/** Creates a new project in After Effects. */
 	newProject(): Project | null;
