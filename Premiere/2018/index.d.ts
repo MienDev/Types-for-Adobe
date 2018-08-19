@@ -1393,9 +1393,10 @@ declare class App {
 	isDocumentOpen(): boolean;
 
 	/**
-	 * 
+	 * Opens the file at the specified path, as a Premiere Pro project.
+	 * Return true if file was opened successfully
 	 */
-	openDocument(): boolean;
+	openDocument(filePath: string): boolean;
 
 	/**
 	 * 
