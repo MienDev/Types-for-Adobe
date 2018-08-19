@@ -18,7 +18,7 @@ declare var NaN: number;
 /**
  * The application object
  */
-declare var app: Application;
+// declare var app: Application; // commented for confliction with app:App in Premiere
 declare interface Application {
     
 }
